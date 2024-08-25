@@ -1,0 +1,196 @@
+html{
+    height:100%;
+}
+body{
+    margin:0;
+    padding: 0;
+    min-height: 100%;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+.header-container{
+    background-color: #0768c1;
+    width: calc( 100% - 20px);
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.avrl-logo{
+    height: 22px;
+    width: 22 px;
+    margin-left: 20px;
+    filter:  contrast(0%) brightness(2);
+}
+.heading-text{
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    margin-left: 15px;
+
+    font-weight: 600;
+}
+.body-container{
+    width: calc( 100% - 10px);
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    height: calc(100vh - 56px);
+}
+.customer-section{
+    width: 15%; 
+    height: 100%;
+}
+.dates-section{
+    width: calc( 15% - 4px);
+    height: calc( 100% - 8px);
+    /* border:#f6f6f6 2px solid; */
+}
+.details-section{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+.customer-name{
+    width: calc( 100% - 30px);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.angle-right-icon{
+    font-size: 15px;
+    margin-right: 5px;  
+}
+.customer_name_text{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;  
+}
+.invisible{
+    display: none;
+}
+.customer-name-parent{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+}
+.position{
+    width: calc( 100% - 20px);
+    display:flex;
+    flex-wrap:wrap;
+    margin:10px;
+    font-weight: normal;
+}
+.customer_account_text{
+    width:90%;
+    margin:0px;
+}
+.customer_count_text{
+    width:10%;
+    margin:0px;
+    text-align:end;
+    color: #a0c1f2;
+}
+.account-list-style {
+    padding: 0 10px;
+    margin: 0px;
+    width: calc(100% - 20px);
+    height: 100%;
+}
+.customer-msg{
+    padding: 5px 5px 5px 20px;
+    list-style-type: none;
+}
+.nothing-top-container{
+    color: gray;
+}
+.truck-image{
+    font-size: 125px;
+}
+.nothing_text{
+    padding: 5px;
+    margin: 0;
+}
+.nothing_text_title{
+    font-size: 25px;
+}
+.nothing_notification_text{
+    font-size: 13px;
+}
+.version_text{
+    font-size: 8px;
+}
+.date-list{
+    width: calc( 100% - 30px);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: left;
+}
+.date-text{
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
+.account-date-section{
+    width: calc(100% - 34px);
+    padding: 15px;
+    border:#ebebeb 2px solid;
+    margin-bottom:5px;
+}
+.date-icon{
+    font-size: 15px;
+    width: 38.5%;
+    text-align: center;
+}
+
+.rg-color{
+    width:1.5%;
+    height: 50px;
+    margin:0px;
+}
+.timestamp{
+    width: calc(60% - 0);
+    text-align: start;
+    font-weight: 100;
+    /* margin-left: 10px; */
+}
+.timestamp-parent{
+    border:#f6f6f6 2px solid;
+    background-color:white;
+    list-style-type: none;
+}
+.time-position{
+    width: 100%;
+    display:flex;
+    flex-wrap:wrap;
+    margin:0px;
+    font-weight: normal;
+    align-items: center;
+}
+.account-date-section{
+    background-color: white;
+}
+.date-section-parent{
+    border:#ebebeb 2px solid;
+    /* height:calc( 100% - 4px); */
+}
+.date-scroll{
+    height:calc(100% - 48.4px);
+    overflow-y: auto;
+}
+.time-list-style {
+    padding: 0 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+.common-display{
+    display:none;
+}
